@@ -1,0 +1,33 @@
+@import '~roboto-fontface/css/roboto/roboto-fontface.css';
+@import 'variables';
+@import 'mixins';
+
+html, body {
+  font-family: $body-font-family;
+  color: $primary-color;
+  font-size: $base-font-size;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+strong {
+  font-weight: 400;
+}
+
+p,
+ul {
+  margin: 0 0 1cm;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+}
+
+.italic {
+  font-style: italic;
+}
+
+h1, h2, h3 {
+  @include heading;
+}

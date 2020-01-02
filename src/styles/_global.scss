@@ -1,0 +1,11 @@
+@import 'variables';
+
+body {
+  width: $container-width;
+
+  @media screen {
+    padding: 0.75cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+    margin: 1cm auto;
+  }
+}
