@@ -1,12 +1,11 @@
 @import '~roboto-fontface/css/roboto/roboto-fontface.css';
 @import 'variables';
-@import 'mixins';
 
 html, body {
   font-family: $body-font-family;
   color: $primary-color;
   font-size: $base-font-size;
-  line-height: 1.5;
+  line-height: normal;
   font-weight: 300;
 }
 
@@ -28,6 +27,20 @@ a {
   font-style: italic;
 }
 
+.font-weight-normal {
+  font-weight: normal;
+}
+
 h1, h2, h3 {
-  @include heading;
+  color: $secondary-color;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 30pt;
+}
+
+h2 {
+  font-size: 16pt;
+  color: $tertiary-color;
 }

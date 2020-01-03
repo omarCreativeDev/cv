@@ -1,0 +1,20 @@
+@import 'variables';
+
+.header__list {
+  margin: 0.4cm 0 0;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.header__item {
+  margin: 0.05cm 0.5cm 0 0;
+}
+
+.header__icon {
+  width: 0.7cm;
+}
+
+.header__avatar {
+  height: 3.3cm;
+  border-radius: 100%;
+}

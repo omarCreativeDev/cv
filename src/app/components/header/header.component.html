@@ -1,1 +1,38 @@
-<p>header works!</p>
+<header class="header flex justify-space-between">
+  <div class="flex flex-direction-column">
+    <h1 class="header__h1">Omar Mirza</h1>
+    <h2 class="header__h2"><span class="italic font-weight-normal">Contract</span> Front End Developer</h2>
+
+    <ul class="header__list">
+      <li class="header__item">
+        <a class="flex align-items-center header__link" href="tel:07932 566 488">
+          <fa-icon class="header__icon" [flip]="'horizontal'" [icon]="faPhone"></fa-icon>07932 566 488
+        </a>
+      </li>
+      <li class="header__item">
+        <a
+          class="flex align-items-center header__link"
+          href="mailto:omar.creative.dev@gmail.com?subject=Creative%20Developments"
+        >
+          <fa-icon class="flex header__icon" [icon]="faEnvelope"></fa-icon>omar.creative.dev@gmail.com
+        </a>
+      </li>
+      <li class="header__item">
+        <a
+          class="flex align-items-center header__link"
+          href="https://maps.google.co.uk/maps?f=q&source=embed&hl=en&geocode=&q=ig6+1nq&aq=&sll=51.523972,-0.058135&sspn=0.324688,0.615921&ie=UTF8&hq=&hnear=IG6+1NQ,+United+Kingdom&t=m&ll=51.620575,0.098877&spn=0.170526,0.413361&z=10"
+          target="_blank"
+        >
+          <fa-icon class="flex header__icon" [icon]="faMapMarkerAlt"></fa-icon>Barkingside, London
+        </a>
+      </li>
+      <li class="header__item">
+        <a class="flex align-items-center header__link" href="http://www.creativedevelopments.net" target="_blank">
+          <fa-icon class="flex header__icon" [icon]="faGlobe"></fa-icon>www.creativedevelopments.net
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <img class="header__avatar" src="assets/avatar.jpeg" />
+</header>
