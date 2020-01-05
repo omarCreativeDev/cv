@@ -4,32 +4,22 @@
     <h2 class="header__h2"><span class="italic font-weight-normal">Contract</span> Front End Developer</h2>
 
     <ul class="header__list">
-      <li class="header__item">
-        <a class="flex align-items-center header__link" href="tel:07932 566 488">
-          <fa-icon class="header__icon" [flip]="'horizontal'" [icon]="faPhone"></fa-icon>07932 566 488
+      <li class="flex align-items-center header__item" *ngFor="let i of headerList">
+        <a class="flex align-items-center header__link" [attr.href]="i.href">
+          <fa-icon class="header__icon" [icon]="i.icon"></fa-icon>{{ i.label }}
         </a>
       </li>
-      <li class="header__item">
-        <a
-          class="flex align-items-center header__link"
-          href="mailto:omar.creative.dev@gmail.com?subject=Creative%20Developments"
-        >
-          <fa-icon class="flex header__icon" [icon]="faEnvelope"></fa-icon>omar.creative.dev@gmail.com
-        </a>
-      </li>
-      <li class="header__item">
-        <a
-          class="flex align-items-center header__link"
-          href="https://maps.google.co.uk/maps?f=q&source=embed&hl=en&geocode=&q=ig6+1nq&aq=&sll=51.523972,-0.058135&sspn=0.324688,0.615921&ie=UTF8&hq=&hnear=IG6+1NQ,+United+Kingdom&t=m&ll=51.620575,0.098877&spn=0.170526,0.413361&z=10"
-          target="_blank"
-        >
-          <fa-icon class="flex header__icon" [icon]="faMapMarkerAlt"></fa-icon>Barkingside, London
-        </a>
-      </li>
-      <li class="header__item">
-        <a class="flex align-items-center header__link" href="http://www.creativedevelopments.net" target="_blank">
-          <fa-icon class="flex header__icon" [icon]="faGlobe"></fa-icon>www.creativedevelopments.net
-        </a>
+      <li class="flex align-items-center header__item">
+        <svg class="header__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 30">
+          <clipPath id="t">
+            <path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z" />
+          </clipPath>
+          <path d="M0,0 v30 h60 v-30 z" fill="#00247d" />
+          <path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6" />
+          <path d="M0,0 L60,30 M60,0 L0,30" clip-path="url(#t)" stroke="#cf142b" stroke-width="4" />
+          <path d="M30,0 v30 M0,15 h60" stroke="#fff" stroke-width="10" />
+          <path d="M30,0 v30 M0,15 h60" stroke="#cf142b" stroke-width="6" /></svg
+        >British
       </li>
     </ul>
   </div>
