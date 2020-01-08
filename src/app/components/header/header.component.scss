@@ -1,7 +1,7 @@
 @import 'variables';
 
 .header__list {
-  margin: 0.4cm 0 0;
+  margin: 0.4cm 0 1cm;
   display: grid;
   grid-template-columns: auto auto auto;
   column-gap: 0.4cm;
@@ -14,6 +14,7 @@
 .header__icon {
   width: 0.4cm;
   margin-right: 0.2cm;
+  color: $secondary-color;
 }
 
 .header__avatar {

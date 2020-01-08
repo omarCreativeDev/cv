@@ -10,12 +10,12 @@ html, body {
 }
 
 strong {
-  font-weight: 400;
+  font-weight: 500;
 }
 
 p,
 ul {
-  margin: 0 0 1cm;
+  margin: 0 0 0.4cm;
 }
 
 a {
@@ -32,8 +32,15 @@ a {
 }
 
 h1, h2, h3 {
-  color: $secondary-color;
   font-weight: 600;
+}
+
+h1, h3 {
+  color: $secondary-color;
+}
+
+h2, h3 {
+  font-size: 16pt;
 }
 
 h1 {
@@ -41,6 +48,11 @@ h1 {
 }
 
 h2 {
-  font-size: 16pt;
   color: $tertiary-color;
+}
+
+h3 {
+  border-bottom: solid 0.05cm $secondary-color;
+  padding-bottom: 0.2cm;
+  margin-bottom: 0.4cm;
 }
