@@ -5,7 +5,6 @@ import { faGithub, faBitbucket } from '@fortawesome/free-brands-svg-icons';
 @Component({
   selector: 'app-code-samples',
   templateUrl: './code-samples.component.html',
-  styleUrls: ['./code-samples.component.scss'],
 })
 export class CodeSamplesComponent {
   public faGithub: IconDefinition = faGithub;
