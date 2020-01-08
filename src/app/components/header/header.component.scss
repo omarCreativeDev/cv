@@ -1,23 +1,13 @@
 @import 'variables';
 
+.header__avatar {
+  height: 2.9cm;
+  border-radius: 100%;
+}
+
 .header__list {
   margin: 0.4cm 0 1cm;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   column-gap: 0.4cm;
-}
-
-.header__item {
-  margin: 0.05cm 0 0 0;
-}
-
-.header__icon {
-  width: 0.4cm;
-  margin-right: 0.2cm;
-  color: $secondary-color;
-}
-
-.header__avatar {
-  height: 3.3cm;
-  border-radius: 100%;
 }
