@@ -5,7 +5,6 @@ import * as moment from 'moment';
 @Component({
   selector: 'app-profile',
   templateUrl: './profile.component.html',
-  styleUrls: ['./profile.component.scss'],
 })
 export class ProfileComponent {
   private beganDevelopment: Moment = moment('01/03/2008', 'MM-DD-YYYY');
