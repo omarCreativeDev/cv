@@ -7,7 +7,7 @@ import { ISkill } from '../../core/model/interfaces';
   styleUrls: ['./skills.component.scss'],
 })
 export class SkillsComponent {
-  public uiStack: ISkill = {
+  private uiStack: ISkill = {
     category: 'UI stack',
     list: [
       {
@@ -41,7 +41,7 @@ export class SkillsComponent {
     ],
   };
 
-  public uiLibraries: ISkill = {
+  private uiLibraries: ISkill = {
     category: 'UI libraries',
     list: [
       {
@@ -63,7 +63,7 @@ export class SkillsComponent {
     ],
   };
 
-  public javascriptStack: ISkill = {
+  private javascriptStack: ISkill = {
     category: 'Javascript stack',
     list: [
       {
@@ -113,7 +113,7 @@ export class SkillsComponent {
     ],
   };
 
-  public unitTesting: ISkill = {
+  private unitTesting: ISkill = {
     category: 'Unit testing',
     list: [
       {
@@ -135,7 +135,7 @@ export class SkillsComponent {
     ],
   };
 
-  public e2eTesting: ISkill = {
+  private e2eTesting: ISkill = {
     category: 'E2E testing',
     list: [
       {
@@ -161,7 +161,7 @@ export class SkillsComponent {
     ],
   };
 
-  public dataVisualisation: ISkill = {
+  private dataVisualisation: ISkill = {
     category: 'Data visualisation',
     list: [
       {
@@ -175,7 +175,7 @@ export class SkillsComponent {
     ],
   };
 
-  public rest: ISkill = {
+  private rest: ISkill = {
     category: 'REST',
     list: [
       {
@@ -197,7 +197,7 @@ export class SkillsComponent {
     ],
   };
 
-  public design: ISkill = {
+  private design: ISkill = {
     category: 'Design',
     list: [
       {
@@ -215,7 +215,7 @@ export class SkillsComponent {
     ],
   };
 
-  public stateManagement: ISkill = {
+  private stateManagement: ISkill = {
     category: 'State management',
     list: [
       {
@@ -229,7 +229,7 @@ export class SkillsComponent {
     ],
   };
 
-  public codeReviews: ISkill = {
+  private codeReviews: ISkill = {
     category: 'Code reviews',
     list: [
       {
@@ -247,7 +247,7 @@ export class SkillsComponent {
     ],
   };
 
-  public devops: ISkill = {
+  private devops: ISkill = {
     category: 'Devops',
     list: [
       {
