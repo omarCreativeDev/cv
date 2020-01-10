@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ILinkDetails } from '@core/model/interfaces';
 import { IconDefinition } from '@fortawesome/fontawesome-common-types';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn, faSkype } from '@fortawesome/free-brands-svg-icons';
@@ -11,7 +12,7 @@ export class FindMeOnlineComponent {
   public faGlobe: IconDefinition = faGlobe;
   public faSkype: IconDefinition = faSkype;
   public faLinkedinIn: IconDefinition = faLinkedinIn;
-  public linksList: any[] = [
+  public linksList: ILinkDetails[] = [
     {
       href: 'https://www.linkedin.com/in/omarCreativeDev/',
       icon: this.faLinkedinIn,

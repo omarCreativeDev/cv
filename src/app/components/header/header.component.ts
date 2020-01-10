@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ILinkDetails } from '@core/model/interfaces';
 import { IconDefinition } from '@fortawesome/fontawesome-common-types';
 import { faEnvelope, faMapMarkerAlt, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 
@@ -11,7 +12,7 @@ export class HeaderComponent {
   public faEnvelope: IconDefinition = faEnvelope;
   public faPhoneAlt: IconDefinition = faPhoneAlt;
   public faMapMarkerAlt: IconDefinition = faMapMarkerAlt;
-  public linksList: any[] = [
+  public linksList: ILinkDetails[] = [
     {
       href: 'tel:07932 566 488',
       icon: this.faPhoneAlt,

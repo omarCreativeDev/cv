@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ILinkDetails } from '@core/model/interfaces';
 import { IconDefinition } from '@fortawesome/fontawesome-common-types';
 import { faGithub, faBitbucket } from '@fortawesome/free-brands-svg-icons';
 
@@ -9,7 +10,7 @@ import { faGithub, faBitbucket } from '@fortawesome/free-brands-svg-icons';
 export class CodeSamplesComponent {
   public faGithub: IconDefinition = faGithub;
   public faBitbucket: IconDefinition = faBitbucket;
-  public linksList: any[] = [
+  public linksList: ILinkDetails[] = [
     {
       href: 'https://github.com/omarCreativeDev',
       icon: this.faGithub,
