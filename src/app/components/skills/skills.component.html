@@ -1,0 +1,63 @@
+<div class="skills">
+  <h3>Skills</h3>
+  <div class="skills__grid-container">
+    <div>
+      <dl class="skills__list">
+        <dt class="skills__category font-weight-bold">{{ uiStack.category }}</dt>
+        <dd [class.font-weight-bold]="i.isCore" *ngFor="let i of uiStack.list">{{ i.name }}</dd>
+      </dl>
+      <dl class="skills__list">
+        <dt class="skills__category font-weight-bold">{{ uiLibraries.category }}</dt>
+        <dd [class.font-weight-bold]="i.isCore" *ngFor="let i of uiLibraries.list">{{ i.name }}</dd>
+      </dl>
+    </div>
+
+    <div>
+      <dl class="skills__list">
+        <dt class="skills__category font-weight-bold">{{ javascriptStack.category }}</dt>
+        <dd [class.font-weight-bold]="i.isCore" *ngFor="let i of javascriptStack.list">{{ i.name }}</dd>
+      </dl>
+    </div>
+
+    <div>
+      <dl class="skills__list">
+        <dt class="skills__category font-weight-bold">{{ unitTesting.category }}</dt>
+        <dd [class.font-weight-bold]="i.isCore" *ngFor="let i of unitTesting.list">{{ i.name }}</dd>
+      </dl>
+      <dl class="skills__list">
+        <dt class="skills__category font-weight-bold">{{ e2eTesting.category }}</dt>
+        <dd [class.font-weight-bold]="i.isCore" *ngFor="let i of e2eTesting.list">{{ i.name }}</dd>
+      </dl>
+    </div>
+
+    <div>
+      <dl class="skills__list">
+        <dt class="skills__category font-weight-bold">{{ dataVisualisation.category }}</dt>
+        <dd [class.font-weight-bold]="i.isCore" *ngFor="let i of dataVisualisation.list">{{ i.name }}</dd>
+      </dl>
+      <dl class="skills__list">
+        <dt class="skills__category font-weight-bold">{{ rest.category }}</dt>
+        <dd [class.font-weight-bold]="i.isCore" *ngFor="let i of rest.list">{{ i.name }}</dd>
+      </dl>
+      <dl class="skills__list">
+        <dt class="skills__category font-weight-bold">{{ design.category }}</dt>
+        <dd [class.font-weight-bold]="i.isCore" *ngFor="let i of design.list">{{ i.name }}</dd>
+      </dl>
+    </div>
+
+    <div>
+      <dl class="skills__list">
+        <dt class="skills__category font-weight-bold">{{ stateManagement.category }}</dt>
+        <dd [class.font-weight-bold]="i.isCore" *ngFor="let i of stateManagement.list">{{ i.name }}</dd>
+      </dl>
+      <dl class="skills__list">
+        <dt class="skills__category font-weight-bold">{{ codeReviews.category }}</dt>
+        <dd [class.font-weight-bold]="i.isCore" *ngFor="let i of codeReviews.list">{{ i.name }}</dd>
+      </dl>
+      <dl class="skills__list">
+        <dt class="skills__category font-weight-bold">{{ devops.category }}</dt>
+        <dd [class.font-weight-bold]="i.isCore" *ngFor="let i of devops.list">{{ i.name }}</dd>
+      </dl>
+    </div>
+  </div>
+</div>
