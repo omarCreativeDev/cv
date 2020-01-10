@@ -268,4 +268,12 @@ export class SkillsComponent {
       },
     ],
   };
+
+  public allSkills: ISkill[][] = [
+    [this.uiStack, this.uiLibraries],
+    [this.javascriptStack],
+    [this.unitTesting, this.e2eTesting],
+    [this.dataVisualisation, this.rest, this.design],
+    [this.stateManagement, this.codeReviews, this.devops],
+  ];
 }
