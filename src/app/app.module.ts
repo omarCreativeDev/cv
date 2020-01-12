@@ -8,6 +8,7 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { CodeSamplesComponent } from './components/code-samples/code-samples.component';
 import { FindMeOnlineComponent } from './components/find-me-online/find-me-online.component';
 import { SkillsComponent } from './components/skills/skills.component';
+import { ExperienceComponent } from './components/experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { SkillsComponent } from './components/skills/skills.component';
     CodeSamplesComponent,
     FindMeOnlineComponent,
     SkillsComponent,
+    ExperienceComponent,
   ],
   imports: [BrowserModule, FontAwesomeModule],
   providers: [],

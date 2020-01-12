@@ -1,12 +1,16 @@
 @import 'variables';
 
+.header {
+  margin-bottom: $section-spacer;
+}
+
 .header__avatar {
   height: 2.9cm;
   border-radius: 100%;
 }
 
 .header__list {
-  margin: 0.4cm 0 1cm;
+  margin: 0.4cm 0 0;
   display: grid;
   grid-template-columns: auto auto auto auto;
   column-gap: 0.4cm;

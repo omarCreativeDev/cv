@@ -1,17 +1,22 @@
 @import 'variables';
 
 .skills {
-  margin-top: 0.4cm;
+  margin: 0 0 $section-spacer;
 }
 
 .skills__grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
   column-gap: 0.4cm;
+  margin-bottom: $section-spacer;
 }
 
 .skills__list {
   margin-bottom: 0.4cm;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .skills__category {

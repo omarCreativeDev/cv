@@ -7,6 +7,7 @@ import { faLinkedinIn, faSkype } from '@fortawesome/free-brands-svg-icons';
 @Component({
   selector: 'app-find-me-online',
   templateUrl: './find-me-online.component.html',
+  styleUrls: ['./find-me-online.component.scss'],
 })
 export class FindMeOnlineComponent {
   public faGlobe: IconDefinition = faGlobe;
