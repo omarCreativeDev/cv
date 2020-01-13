@@ -32,11 +32,11 @@ a {
   font-weight: normal;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-weight: 600;
 }
 
-h1, h3 {
+h1, h3, h4 {
   color: $secondary-color;
 }
 
@@ -56,6 +56,10 @@ h3 {
   border-bottom: solid 0.05cm $secondary-color;
   padding-bottom: 0.2cm;
   margin-bottom: 0.4cm;
+}
+
+h4 {
+  font-size: 13pt;
 }
 
 .links-list__item {

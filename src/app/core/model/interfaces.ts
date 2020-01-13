@@ -15,3 +15,16 @@ export interface ISkillList {
   name: string;
   isCore: boolean;
 }
+
+export interface IExperience {
+  title: string;
+  dates: IExperienceDates;
+  renewals?: number;
+  description: string;
+  achievements: string[];
+}
+
+export interface IExperienceDates {
+  from: string;
+  to: string;
+}
