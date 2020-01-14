@@ -1,3 +1,5 @@
+@import 'variables';
+
 .experience__grid-container {
   display: grid;
   grid-template-columns: auto auto;
@@ -5,10 +7,15 @@
 }
 
 .experience__renewals {
-  margin-right: 0.4cm;
+  margin-right: 0.8cm;
+  color: $secondary-color;
 }
 
 .experience__achievements {
   list-style: square;
   margin: 0 0 0 1cm;
+}
+
+.experience__dates {
+  color: $secondary-color;
 }

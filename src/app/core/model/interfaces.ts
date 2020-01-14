@@ -21,7 +21,7 @@ export interface IExperience {
   dates: IExperienceDates;
   renewals?: number;
   description: string;
-  achievements: string[];
+  achievements?: string[];
 }
 
 export interface IExperienceDates {

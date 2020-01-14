@@ -4,12 +4,16 @@
     <div class="experience__grid-container justify-space-between">
       <h4>{{ job.title }}</h4>
       <div>
-        <span *ngIf="job.renewals" class="experience__renewals">Includes {{ job.renewals }} renewal</span>
-        <fa-icon class="links-list__icon" [icon]="faCalendarAlt"></fa-icon> {{ job.dates.from }} - {{ job.dates.to }}
+        <strong *ngIf="job.renewals" class="experience__renewals"
+          >(Includes {{ job.renewals }} contract
+          {{ job.renewals | i18nPlural: { '=1': 'renewal', other: 'renewals' } }})</strong
+        >
+        <fa-icon class="links-list__icon" [icon]="faCalendarAlt"></fa-icon>
+        <strong class="experience__dates">{{ job.dates.from }} - {{ job.dates.to }}</strong>
       </div>
     </div>
     <p>{{ job.description }}</p>
-    <ul class="experience__achievements">
+    <ul *ngIf="job.achievements" class="experience__achievements">
       <li *ngFor="let i of job.achievements">{{ i }}</li>
     </ul>
   </div>
