@@ -16,9 +16,9 @@ export class ExperienceComponent {
       dates: { from: 'September 2019', to: 'November 2019' },
       renewals: 1,
       description:
-        'Hired on a short term contract in order to refactor and tackle some existing tech debt. Project involved ' +
-        'rewriting and cleaning up existing legacy css and javascript via latest modern coding standards. This was ' +
-        'achieved via utilising the power of SASS and ES6.',
+        'Hired to refactor and tackle some existing tech debt. Project involved rewriting and cleaning up existing ' +
+        'legacy css and javascript via latest modern coding standards. This was achieved via utilising the power of ' +
+        'SASS and ES6.',
     },
     {
       title: 'Sopra Steria',
@@ -40,8 +40,9 @@ export class ExperienceComponent {
       dates: { from: 'September 2018 ', to: 'January 2019' },
       renewals: 1,
       description:
-        'Assisted london team with high priority bug fixes as well as working on new features from the backlog for a ' +
-        'fintech angular 7 project.',
+        'Developed a mortgage underwriting tool for Experian. An angular 6 single page application developed to ' +
+        'manage and list mortgage applications, view income and expenditure transactions via open banking and data ' +
+        'visualisation.',
     },
     {
       title: 'Foundry',
