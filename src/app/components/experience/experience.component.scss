@@ -1,13 +1,18 @@
 @import 'variables';
 
+.experience__item {
+  margin-bottom: $section-spacer;
+}
+
 .experience__grid-container {
   display: grid;
   grid-template-columns: auto auto;
-  margin-bottom: 0.2cm;
+  margin-bottom: 0.1cm;
+  align-items: flex-end;
 }
 
 .experience__renewals {
-  margin-right: 0.8cm;
+  margin-right: 0.4cm;
   color: $secondary-color;
 }
 
