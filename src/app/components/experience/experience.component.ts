@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IExperience } from '@core/model/interfaces';
 import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 import { IconDefinition } from '@fortawesome/fontawesome-common-types';
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-experience',
@@ -10,7 +11,21 @@ import { IconDefinition } from '@fortawesome/fontawesome-common-types';
 })
 export class ExperienceComponent {
   public faCalendarAlt: IconDefinition = faCalendarAlt;
+  public faLinkedinIn: IconDefinition = faLinkedinIn;
   public experienceHistory: IExperience[] = [
+    {
+      title: 'Heineken',
+      dates: { from: 'December 2019', to: 'February 2019' },
+      description:
+        'To be filled out To be filled out To be filled out To be filled out To be filled out To be filled out ' +
+        'To be filled out To be filled out To be filled out To be filled out To be filled out To be filled out ' +
+        'To be filled out To be filled out To be filled out To be filled out To be filled out To be filled out',
+      achievements: [
+        'To be filled out To be filled out To be filled out To be filled out',
+        'To be filled out To be filled out To be filled out To be filled out',
+        'To be filled out To be filled out To be filled out To be filled out',
+      ],
+    },
     {
       title: 'RSSB (Rail safety & standards board)',
       dates: { from: 'September 2019', to: 'November 2019' },
@@ -19,6 +34,7 @@ export class ExperienceComponent {
         'Hired to refactor and tackle some existing tech debt. Project involved rewriting and cleaning up existing ' +
         'legacy css and javascript via latest modern coding standards. This was achieved via utilising the power of ' +
         'SASS and ES6.',
+      achievements: ['To be filled out'],
     },
     {
       title: 'Sopra Steria',
@@ -27,6 +43,7 @@ export class ExperienceComponent {
       description:
         'Developed a single page application for Skills for care, an adult social care organisation. An angular 8 ' +
         'project built with cutting edge modern tech in order to facilitate workforce development.',
+      achievements: ['GDS Experience', 'Accessessbility'],
     },
     {
       title: 'Virtusa',
@@ -34,6 +51,7 @@ export class ExperienceComponent {
       description:
         'Assisted london team with high priority bug fixes as well as working on new features from the backlog for a ' +
         'fintech angular 7 project.',
+      achievements: ['hit release target'],
     },
     {
       title: 'Runpath',
@@ -43,6 +61,10 @@ export class ExperienceComponent {
         'Developed a mortgage underwriting tool for Experian. An angular 6 single page application developed to ' +
         'manage and list mortgage applications, view income and expenditure transactions via open banking and data ' +
         'visualisation.',
+      achievements: [
+        'To be filled out To be filled out To be filled out To be filled out',
+        'To be filled out To be filled out To be filled out To be filled out',
+      ],
     },
     {
       title: 'Foundry',
@@ -91,7 +113,7 @@ export class ExperienceComponent {
       title: 'Addison Lee',
       dates: { from: 'March 2017', to: 'June 2017' },
       description:
-        'Worked on the Global Booking System for Addison Lee. A greenfield angular project that consolidates and ' +
+        'Worked on the Global Booking System for Addison Lee. A greenfield angular 2 project that consolidates and ' +
         'unifies the booking experience for both b2b and b2c customers. Key achievements;',
       achievements: [
         'Developed a greenfield single page app with angular 2 and typescript.',
@@ -99,27 +121,6 @@ export class ExperienceComponent {
         'Developed end to end [e2e] tests to automate ui testing.',
         'Developed a modular app with reusable components in order to facilitate whitelabelling.',
       ],
-    },
-    {
-      title: 'Transform',
-      dates: { from: 'July 2016', to: 'February 2017' },
-      renewals: 1,
-      description:
-        'Worked on the Trainee Information System project for the NHS. A greenfield project involving modern cutting ' +
-        'edge tech designed to manage trainee doctors, concerns and notifications. All phases of the project were ' +
-        'developed within an agile development methodology and user centred design techniques. Key achievements include; ',
-      achievements: [
-        'Developed a number of scalable and modular angular apps using RESTFUL api’s.',
-        'Behaviour driven development using gherkin, protractor and chai.',
-        'Unit testing using karma, jasmine',
-      ],
-    },
-    {
-      title: 'Sapient',
-      dates: { from: 'May 2016', to: 'July 2016' },
-      description:
-        'Worked on re-launch of corporate and brand sites of one of the biggest client projects at Sapient, ' +
-        'a London based digital agency. ',
     },
   ];
 }
