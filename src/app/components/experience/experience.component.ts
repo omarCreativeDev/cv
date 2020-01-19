@@ -17,13 +17,13 @@ export class ExperienceComponent {
       title: 'Heineken',
       dates: { from: 'December 2019', to: 'February 2019' },
       description:
-        'To be filled out To be filled out To be filled out To be filled out To be filled out To be filled out ' +
-        'To be filled out To be filled out To be filled out To be filled out To be filled out To be filled out ' +
-        'To be filled out To be filled out To be filled out To be filled out To be filled out To be filled out',
+        'Hired as the senior front end developer in order to drive the front end development for project Refresh. ' +
+        'A greenfield single page angular 8 application for Heineken with the purpose to completely modernize an ' +
+        'existing legacy code base.',
       achievements: [
-        'To be filled out To be filled out To be filled out To be filled out',
-        'To be filled out To be filled out To be filled out To be filled out',
-        'To be filled out To be filled out To be filled out To be filled out',
+        'Mentoring other developers with regards to front end development including angular and e2e testing',
+        'Assisted QA automation on jira stories by writing e2e tests using protractor, gherkin and chai',
+        'Collaborating with external design agency in order to ensure designs are feasible for development',
       ],
     },
     {
