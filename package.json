@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "publish": "electron-pdf -p A4 -m 0 http://localhost:4200/ ./cv.pdf"
+    "publish": "electron-pdf -p A4 -m 0 http://localhost:4200/ ./Omar-Mirza-Contract-Front-End-Developer.pdf"
   },
   "private": true,
   "dependencies": {
