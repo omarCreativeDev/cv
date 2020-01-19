@@ -30,11 +30,11 @@ export class ExperienceComponent {
       title: 'RSSB (Rail safety & standards board)',
       dates: { from: 'September 2019', to: 'November 2019' },
       renewals: 1,
-      description:
-        'Hired to refactor and tackle some existing tech debt. Project involved rewriting and cleaning up existing ' +
-        'legacy css and javascript via latest modern coding standards. This was achieved via utilising the power of ' +
-        'SASS and ES6.',
-      achievements: ['To be filled out'],
+      description: 'Hired to work on a technical refactor project for the main RSSB website.',
+      achievements: [
+        'Complete rewrite of existing HTML markup and css using modern HTML5, SASS and BEM methodology.',
+        'Complete rewrite of existing javascript via latest modern ES6 coding standards',
+      ],
     },
     {
       title: 'Sopra Steria',
@@ -42,16 +42,20 @@ export class ExperienceComponent {
       renewals: 2,
       description:
         'Developed a single page application for Skills for care, an adult social care organisation. An angular 8 ' +
-        'project built with cutting edge modern tech in order to facilitate workforce development.',
-      achievements: ['GDS Experience', 'Accessessbility'],
+        'project built with cutting edge modern tech in order to facilitate workforce development. ',
+      achievements: [
+        'Gained development experience with GDS [GOV.UK design system]',
+        'Implemented development best pratices whilst confirming to Web Content Accessibility Guidelines (WCAG 2.1)',
+      ],
     },
     {
       title: 'Virtusa',
       dates: { from: 'February 2019 ', to: 'March 2019' },
       description:
-        'Assisted london team with high priority bug fixes as well as working on new features from the backlog for a ' +
-        'fintech angular 7 project.',
-      achievements: ['hit release target'],
+        'Worked on APIX, an angular 6 application designed for collaboration between financial Institutions and FinTechs.',
+      achievements: [
+        'Developed new features and addressed high priority bug fixes under tight deadlines in order to hit release target',
+      ],
     },
     {
       title: 'Runpath',
@@ -60,10 +64,10 @@ export class ExperienceComponent {
       description:
         'Developed a mortgage underwriting tool for Experian. An angular 6 single page application developed to ' +
         'manage and list mortgage applications, view income and expenditure transactions via open banking and data ' +
-        'visualisation.',
+        'visualisation. ',
       achievements: [
-        'To be filled out To be filled out To be filled out To be filled out',
-        'To be filled out To be filled out To be filled out To be filled out',
+        'Responsible for client-side code delivery as well as smooth integration with BE restful API`s',
+        'Utilised ng charts library in order to present data visualisation on the ui',
       ],
     },
     {
@@ -78,7 +82,7 @@ export class ExperienceComponent {
       description:
         'Developed ecommerce single page application for Arrow, one of the biggest electronic component distributers. ' +
         'A b2b angular project developed to manage orders, quotes, bill of materials, notifications and forecasts. ' +
-        'Key achievements;',
+        '',
       achievements: [
         'Developed a greenfield single page application with angular 5, typescript, and webpack',
         'State management with ng store and rxJs dev tools',
@@ -90,7 +94,7 @@ export class ExperienceComponent {
       dates: { from: 'September 2017', to: 'December 2017' },
       description:
         'Worked on Flix, a visual story development tool for feature film, TV production, games. Designed to promote ' +
-        'fast-paced creative collaboration amongst directors, producers, story artists and editors. Key achievements;',
+        'fast-paced creative collaboration amongst directors, producers, story artists and editors.',
       achievements: [
         'Developed a greenfield desktop application with angular 4, typescript, electron and webpack.',
         'Developed reusable components with a focus on performance for the best user experience.',
@@ -103,7 +107,7 @@ export class ExperienceComponent {
       dates: { from: 'June 2017', to: 'August 2017' },
       description:
         'Worked on Winton careers project. A greenfield angular project that allows external candidates to view and ' +
-        'apply for current job opportunities. Key achievements;',
+        'apply for current job opportunities.',
       achievements: [
         'Developed a greenfield single page app with angular 4, typescript and webpack.',
         'Developed re useable private npm packages in order to be consumed by a number of internal single page apps.',
@@ -114,7 +118,7 @@ export class ExperienceComponent {
       dates: { from: 'March 2017', to: 'June 2017' },
       description:
         'Worked on the Global Booking System for Addison Lee. A greenfield angular 2 project that consolidates and ' +
-        'unifies the booking experience for both b2b and b2c customers. Key achievements;',
+        'unifies the booking experience for both b2b and b2c customers.',
       achievements: [
         'Developed a greenfield single page app with angular 2 and typescript.',
         'Maintained 80% of code coverage with unit tests.',
