@@ -15,7 +15,7 @@ export class ExperienceComponent {
   public experienceHistory: IExperience[] = [
     {
       title: 'Heineken',
-      dates: { from: 'December 2019', to: 'February 2019' },
+      dates: { from: 'December 2019', to: 'February 2020' },
       description:
         'Hired as the senior front end developer in order to drive the front end development for project Refresh. ' +
         'A greenfield single page angular 8 application for Heineken with the purpose to completely modernize an ' +
@@ -45,7 +45,7 @@ export class ExperienceComponent {
         'project built with cutting edge modern tech in order to facilitate workforce development. ',
       achievements: [
         'Gained development experience with GDS [GOV.UK design system]',
-        'Implemented development best pratices whilst confirming to Web Content Accessibility Guidelines (WCAG 2.1)',
+        'Implemented development best practices whilst confirming to Web Content Accessibility Guidelines (WCAG 2.1)',
       ],
     },
     {
