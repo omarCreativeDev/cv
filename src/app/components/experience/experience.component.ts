@@ -45,7 +45,7 @@ export class ExperienceComponent {
         'project built with cutting edge modern tech in order to facilitate workforce development. ',
       achievements: [
         'Gained development experience with GDS [GOV.UK design system]',
-        'Implemented development best practices whilst confirming to Web Content Accessibility Guidelines (WCAG 2.1)',
+        'Adhered to Web Content Accessibility Guidelines (WCAG 2.1)',
       ],
     },
     {
