@@ -14,7 +14,7 @@ export class ExperienceComponent {
   public faLinkedinIn: IconDefinition = faLinkedinIn;
   public experienceHistory: IExperience[] = [
     {
-      title: 'HEE [Health Education England]',
+      title: 'HEE (Health Education England)',
       dates: { from: 'February 2020', to: 'May 2020' },
       description: '',
     },
