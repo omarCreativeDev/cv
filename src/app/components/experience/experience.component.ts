@@ -124,12 +124,6 @@ export class ExperienceComponent {
       description:
         'Worked on the Global Booking System for Addison Lee. A greenfield angular 2 project that consolidates and ' +
         'unifies the booking experience for both b2b and b2c customers.',
-      achievements: [
-        'Developed a greenfield single page app with angular 2 and typescript.',
-        'Maintained 80% of code coverage with unit tests.',
-        'Developed end to end [e2e] tests to automate ui testing.',
-        'Developed a modular app with reusable components in order to facilitate whitelabelling.',
-      ],
     },
   ];
 }
