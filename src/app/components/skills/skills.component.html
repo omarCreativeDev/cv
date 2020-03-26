@@ -9,9 +9,10 @@
     </div>
   </div>
 
-  <h3>Other Skills</h3>
+  <h3>{{ otherSkills.category }}</h3>
   <p>
-    <strong>Git</strong>, <strong>Git flow</strong>, Slack, MySQL, Trello, zeplin, Grunt, Gulp, YAML, Electron, font
-    awesome, icomoon, masonry
+    <span *ngFor="let i of otherSkills.list; let last = last" [class.font-weight-bold]="i.isCore">
+      {{ i.name }}<ng-container *ngIf="!last">, </ng-container>
+    </span>
   </p>
 </div>

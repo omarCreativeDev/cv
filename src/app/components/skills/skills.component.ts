@@ -57,8 +57,8 @@ export class SkillsComponent {
         isCore: true,
       },
       {
-        name: 'Clarity UI',
-        isCore: false,
+        name: 'NHS digital service manual',
+        isCore: true,
       },
     ],
   };
@@ -139,11 +139,11 @@ export class SkillsComponent {
     category: 'E2E testing',
     list: [
       {
-        name: 'Protractor',
+        name: 'Cypress',
         isCore: true,
       },
       {
-        name: 'Cypress',
+        name: 'Protractor',
         isCore: true,
       },
       {
@@ -219,11 +219,11 @@ export class SkillsComponent {
     category: 'State management',
     list: [
       {
-        name: 'NGRX',
-        isCore: false,
+        name: 'NGXS',
+        isCore: true,
       },
       {
-        name: 'NGXS',
+        name: 'NGRX',
         isCore: false,
       },
     ],
@@ -273,7 +273,70 @@ export class SkillsComponent {
     [this.uiStack, this.uiLibraries],
     [this.javascriptStack],
     [this.unitTesting, this.e2eTesting],
-    [this.dataVisualisation, this.rest, this.design],
     [this.stateManagement, this.codeReviews, this.devops],
+    [this.dataVisualisation, this.rest, this.design],
   ];
+
+  public otherSkills: ISkill = {
+    category: 'Other Skills',
+    list: [
+      {
+        name: 'Git',
+        isCore: true,
+      },
+      {
+        name: 'Git flow',
+        isCore: true,
+      },
+      {
+        name: 'Clarity UI',
+        isCore: false,
+      },
+      {
+        name: 'Slack',
+        isCore: false,
+      },
+      {
+        name: 'MySQL',
+        isCore: false,
+      },
+      {
+        name: 'Trello',
+        isCore: false,
+      },
+      {
+        name: 'Zeplin',
+        isCore: false,
+      },
+      {
+        name: 'Grunt',
+        isCore: false,
+      },
+
+      {
+        name: 'Gulp',
+        isCore: false,
+      },
+      {
+        name: 'YAML',
+        isCore: false,
+      },
+      {
+        name: 'Electron',
+        isCore: false,
+      },
+      {
+        name: 'Font awesome',
+        isCore: false,
+      },
+      {
+        name: 'Icomoon',
+        isCore: false,
+      },
+      {
+        name: 'Masonry',
+        isCore: false,
+      },
+    ],
+  };
 }
