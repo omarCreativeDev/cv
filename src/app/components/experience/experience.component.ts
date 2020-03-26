@@ -107,7 +107,6 @@ export class ExperienceComponent {
         'fast-paced creative collaboration amongst directors, producers, story artists and editors.',
       achievements: [
         'Developed a greenfield desktop application with angular 4, typescript, electron and webpack.',
-        'Developed reusable components with a focus on performance for the best user experience.',
         'Unit testing components and services with a BDD approach.',
         'Gained development experience with electron and clarity ui.',
       ],
