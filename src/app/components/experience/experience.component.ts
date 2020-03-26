@@ -11,12 +11,18 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 })
 export class ExperienceComponent {
   public faCalendarAlt: IconDefinition = faCalendarAlt;
-  public faLinkedinIn: IconDefinition = faLinkedinIn;
+  public faLinkedIn: IconDefinition = faLinkedinIn;
   public experienceHistory: IExperience[] = [
     {
       title: 'HEE (Health Education England)',
       dates: { from: 'February 2020', to: 'May 2020' },
-      description: '',
+      description:
+        'Hired to redevelop a core part of the Trainee Information System (TIS) for the NHS. ' +
+        'A greenfield single page angular 9 application designed to manage trainee doctors, concerns and notifications.',
+      achievements: [
+        'Implemented state management using NGXS alongside Redux dev tools.',
+        'Developed e2e tests using Cypress to automate ui testing.',
+      ],
     },
     {
       title: 'Heineken',
@@ -26,9 +32,9 @@ export class ExperienceComponent {
         'A greenfield single page angular 8 application for Heineken with the purpose to completely modernize an ' +
         'existing legacy code base.',
       achievements: [
-        'Mentoring other developers with regards to front end development including angular and e2e testing',
-        'Assisted QA automation on jira stories by writing e2e tests using protractor, gherkin and chai',
-        'Collaborating with external design agency in order to ensure designs are feasible for development',
+        'Mentoring other developers with regards to front end development including angular and e2e testing.',
+        'Assisted QA automation on jira stories by writing e2e tests using protractor, gherkin and chai.',
+        'Collaborating with external design agency in order to ensure designs are feasible for development.',
       ],
     },
     {
@@ -78,7 +84,7 @@ export class ExperienceComponent {
     {
       title: 'Foundry',
       dates: { from: 'May 2018 ', to: 'September 2018' },
-      description: 'Rejoined foundry for second time to work on flix project using angular. ',
+      description: 'Rejoined foundry for second time to work on Flix project using angular. ',
     },
     {
       title: 'The Bio Agency',
@@ -86,11 +92,10 @@ export class ExperienceComponent {
       renewals: 1,
       description:
         'Developed ecommerce single page application for Arrow, one of the biggest electronic component distributers. ' +
-        'A b2b angular project developed to manage orders, quotes, bill of materials, notifications and forecasts. ' +
-        '',
+        'A b2b angular project developed to manage orders, quotes, bill of materials, notifications and forecasts. ',
       achievements: [
         'Developed a greenfield single page application with angular 5, typescript, and webpack',
-        'State management with ng store and rxJs dev tools',
+        'State management with NGRX alongside Redux dev tools',
         'Maintained 92% of code coverage with unit tests',
       ],
     },
