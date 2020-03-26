@@ -289,6 +289,14 @@ export class SkillsComponent {
         isCore: true,
       },
       {
+        name: 'Prettier',
+        isCore: false,
+      },
+      {
+        name: 'Husky',
+        isCore: false,
+      },
+      {
         name: 'Clarity UI',
         isCore: false,
       },
@@ -315,10 +323,6 @@ export class SkillsComponent {
 
       {
         name: 'Gulp',
-        isCore: false,
-      },
-      {
-        name: 'YAML',
         isCore: false,
       },
       {
