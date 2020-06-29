@@ -297,19 +297,15 @@ export class SkillsComponent {
         isCore: false,
       },
       {
+        name: 'AWS Cognito',
+        isCore: false,
+      },
+      {
         name: 'Clarity UI',
         isCore: false,
       },
       {
-        name: 'Slack',
-        isCore: false,
-      },
-      {
         name: 'MySQL',
-        isCore: false,
-      },
-      {
-        name: 'Trello',
         isCore: false,
       },
       {
