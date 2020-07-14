@@ -15,8 +15,8 @@ export class ExperienceComponent {
   public experienceHistory: IExperience[] = [
     {
       title: 'HEE (Health Education England)',
-      dates: { from: 'February 2020', to: 'July 2020' },
-      renewals: 1,
+      dates: { from: 'February 2020', to: 'August 2020' },
+      renewals: 2,
       description:
         'Hired to redevelop a core part of the Trainee Information System (TIS) for the NHS. ' +
         'A greenfield single page angular 9 application designed to manage trainee doctors, concerns and notifications.',
