@@ -19,7 +19,7 @@ export class ExperienceComponent {
       renewals: 2,
       description:
         'Hired to redevelop a core part of the Trainee Information System (TIS) for the NHS. ' +
-        'A greenfield single page angular 9 application designed to manage trainee doctors, concerns and notifications.',
+        'A greenfield single page angular 10 application designed to manage trainee doctors, concerns and notifications.',
       achievements: [
         'Implemented state management using NGXS alongside Redux dev tools.',
         'Developed e2e tests using Cypress to automate ui testing.',
