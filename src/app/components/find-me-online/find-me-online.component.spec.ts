@@ -1,4 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { AppModule } from '../../app.module';
 
 import { FindMeOnlineComponent } from './find-me-online.component';
 
@@ -9,6 +10,7 @@ describe('FindMeOnlineComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [FindMeOnlineComponent],
+      imports: [AppModule],
     }).compileComponents();
   }));
 

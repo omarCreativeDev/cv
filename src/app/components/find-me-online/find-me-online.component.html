@@ -2,7 +2,7 @@
   <h3>Find me online</h3>
   <ul class="find-me-online__list">
     <li class="flex align-items-center links-list__item" *ngFor="let i of linksList">
-      <a class="flex align-items-center" [attr.href]="i.href" target="_blank">
+      <a class="flex align-items-center" [attr.href]="sanitize(i.href)" target="_blank">
         <fa-icon class="links-list__icon" [icon]="i.icon"></fa-icon>{{ i.label }}
       </a>
     </li>

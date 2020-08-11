@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
 import { ILinkDetails } from '@core/model/interfaces';
 import { IconDefinition } from '@fortawesome/fontawesome-common-types';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
@@ -30,4 +31,10 @@ export class FindMeOnlineComponent {
       label: 'omar.creativedevelopments.net',
     },
   ];
+
+  constructor(private sanitizer: DomSanitizer) {}
+
+  public sanitize(url: string) {
+    return this.sanitizer.bypassSecurityTrustUrl(url);
+  }
 }
