@@ -117,12 +117,20 @@ export class SkillsComponent {
     category: 'Unit testing',
     list: [
       {
+        name: 'TDD',
+        isCore: true,
+      },
+      {
         name: 'Jasmine',
         isCore: true,
       },
       {
         name: 'Karma',
         isCore: true,
+      },
+      {
+        name: 'Jest',
+        isCore: false,
       },
       {
         name: 'Mocha',

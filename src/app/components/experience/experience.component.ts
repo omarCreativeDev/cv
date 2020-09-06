@@ -18,7 +18,7 @@ export class ExperienceComponent {
       dates: { from: 'February 2020', to: '25th August 2020' },
       renewals: 2,
       description:
-        'Hired to redevelop a core part of the Trainee Information System (TIS) for the NHS. ' +
+        'Hired to redevelop a core part of the Trainee Information System (TIS) for HEE using a test driven development approach . ' +
         'A greenfield single page angular 10 application designed to manage trainee doctors, concerns and notifications.',
       achievements: [
         'Implemented state management using NGXS alongside Redux dev tools.',
@@ -74,7 +74,7 @@ export class ExperienceComponent {
       dates: { from: 'September 2018 ', to: 'January 2019' },
       renewals: 1,
       description:
-        'Developed a mortgage underwriting tool for Experian. An angular 6 single page application developed to ' +
+        'Developed a mortgage underwriting tool for Experian with a TDD approach. An angular 6 single page application developed to ' +
         'manage and list mortgage applications, view income and expenditure transactions via open banking and data ' +
         'visualisation. ',
       achievements: [
@@ -95,7 +95,7 @@ export class ExperienceComponent {
         'Developed ecommerce single page application for Arrow, one of the biggest electronic component distributers. ' +
         'A b2b angular project developed to manage orders, quotes, bill of materials, notifications and forecasts. ',
       achievements: [
-        'Developed a greenfield single page application with angular 5, typescript, and webpack',
+        'Developed a greenfield single page application with a TDD approach using angular 5, typescript, and webpack',
         'State management with NGRX alongside Redux dev tools',
         'Maintained 92% of code coverage with unit tests',
       ],
@@ -122,13 +122,6 @@ export class ExperienceComponent {
         'Developed a greenfield single page app with angular 4, typescript and webpack.',
         'Developed re useable private npm packages in order to be consumed by a number of internal single page apps.',
       ],
-    },
-    {
-      title: 'Addison Lee',
-      dates: { from: 'March 2017', to: 'June 2017' },
-      description:
-        'Worked on the Global Booking System for Addison Lee. A greenfield angular 2 project that consolidates and ' +
-        'unifies the booking experience for both b2b and b2c customers.',
     },
   ];
 }
