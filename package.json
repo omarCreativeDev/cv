@@ -10,7 +10,7 @@
     "lint": "ng lint",
     "cypress": "cypress run",
     "cypress-open": "cypress open",
-    "publish": "electron-pdf -p A4 -m 0 http://localhost:4200/ ./Omar-Mirza-Contract-Front-End-Developer.pdf"
+    "publish": "electron-pdf -p A4 -m 0 http://localhost:7777/ ./Omar-Mirza-Contract-Front-End-Developer.pdf"
   },
   "husky": {
     "hooks": {

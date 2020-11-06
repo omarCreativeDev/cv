@@ -15,6 +15,12 @@
     <p>{{ job.description }}</p>
     <ul *ngIf="job.achievements" class="experience__achievements">
       <li *ngFor="let i of job.achievements">{{ i }}</li>
+      <li *ngIf="job.skillsUsed">
+        <strong>Skills used:</strong>
+        <ng-container *ngFor="let i of job.skillsUsed; let last = last">
+          {{ i }}<ng-container *ngIf="!last">, </ng-container>
+        </ng-container>
+      </li>
     </ul>
   </div>
   <div class="text-center">

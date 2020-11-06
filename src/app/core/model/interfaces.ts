@@ -22,6 +22,7 @@ export interface IExperience {
   renewals?: number;
   description: string;
   achievements?: string[];
+  skillsUsed?: string[];
 }
 
 export interface IExperienceDates {
