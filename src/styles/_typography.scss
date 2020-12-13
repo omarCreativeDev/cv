@@ -1,7 +1,8 @@
 @import '~roboto-fontface/css/roboto/roboto-fontface.css';
 @import 'variables';
 
-html, body {
+html,
+body {
   font-family: $body-font-family;
   color: $primary-color;
   font-size: $base-font-size;
@@ -36,15 +37,21 @@ a {
   text-align: center;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-weight: 600;
 }
 
-h1, h3, h4 {
+h1,
+h3,
+h4 {
   color: $secondary-color;
 }
 
-h2, h3 {
+h2,
+h3 {
   font-size: 16pt;
 }
 
