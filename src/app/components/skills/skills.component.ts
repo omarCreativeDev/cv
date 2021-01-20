@@ -126,11 +126,11 @@ export class SkillsComponent {
       },
       {
         name: 'Karma',
-        isCore: true,
+        isCore: false,
       },
       {
         name: 'Jest',
-        isCore: false,
+        isCore: true,
       },
       {
         name: 'Mocha',

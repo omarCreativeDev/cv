@@ -13,7 +13,7 @@
       </div>
     </div>
     <p>{{ job.description }}</p>
-    <ul *ngIf="job.achievements" class="experience__achievements">
+    <ul *ngIf="job.achievements || job.skillsUsed" class="experience__achievements">
       <li *ngFor="let i of job.achievements">{{ i }}</li>
       <li *ngIf="job.skillsUsed">
         <strong>Skills used:</strong>

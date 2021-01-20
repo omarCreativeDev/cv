@@ -14,11 +14,44 @@ export class ExperienceComponent {
   public faLinkedIn: IconDefinition = faLinkedinIn;
   public experienceHistory: IExperience[] = [
     {
+      title: 'Greensill',
+      dates: { from: 'September 2020', to: 'February 2021' },
+      description:
+        'Hired as a senior front end developer to join a cross-functional agile team for Greensill, ' +
+        'a market-leading provider of working capital finance. Enhanced and scaled project Verdi ' +
+        'by developing new features using angular 11.',
+      achievements: [
+        'Maintained 80% code coverage of unit tests using Jest.',
+        'Developed end to end browser automation tests with Cypress using a BDD approach.',
+        'Involved in common components library project leveraging storybook, ngx data table.',
+      ],
+      skillsUsed: [
+        'Angular',
+        'Typescript',
+        'Javascript',
+        'RxJs',
+        'Test Driven Development',
+        'Jest',
+        'Cypress',
+        'HTML5',
+        'SCSS',
+        'CSS3',
+        'BEM',
+        'CSS Grid',
+        'Responsive Design',
+        'Angular Material',
+        'Git',
+        'Node',
+        'Storybook',
+        'NGX data table',
+      ],
+    },
+    {
       title: 'HEE (Health Education England)',
       dates: { from: 'February 2020', to: 'September 2020' },
       renewals: 2,
       description:
-        'Hired to redevelop a core part of the Trainee Information System (TIS) for HEE using a test driven development approach . ' +
+        'Hired to redevelop a core part of the Trainee Information System (TIS) for HEE using a test driven development approach. ' +
         'A greenfield single page angular 10 application designed to manage trainee doctors, concerns and notifications.',
       achievements: [
         'Implemented state management using NGXS alongside Redux dev tools.',
@@ -184,37 +217,6 @@ export class ExperienceComponent {
         'Clarity UI',
         'Responsive Design',
         'Git',
-      ],
-    },
-    {
-      title: 'The Bio Agency',
-      dates: { from: 'December 2017', to: 'May 2018' },
-      renewals: 1,
-      description:
-        'Developed ecommerce single page application for Arrow, one of the biggest electronic component distributers. ' +
-        'A b2b angular project developed to manage orders, quotes, bill of materials, notifications and forecasts. ',
-      achievements: [
-        'Developed a greenfield single page application with a TDD approach using angular 5, typescript, and webpack',
-        'State management with NGRX alongside Redux dev tools',
-        'Maintained 92% of code coverage with unit tests',
-      ],
-      skillsUsed: [
-        'Angular',
-        'Typescript',
-        'Javascript',
-        'RxJs',
-        'NGRX',
-        'Test Driven Development',
-        'Jasmine',
-        'Karma',
-        'HTML5',
-        'SCSS',
-        'CSS3',
-        'BEM',
-        'CSS Grid',
-        'Responsive Design',
-        'Git',
-        'Mocky',
       ],
     },
   ];
