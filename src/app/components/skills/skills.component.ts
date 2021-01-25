@@ -79,7 +79,7 @@ export class SkillsComponent {
         isCore: true,
       },
       {
-        name: 'RxJs',
+        name: 'RxJS',
         isCore: true,
       },
       {
@@ -87,11 +87,19 @@ export class SkillsComponent {
         isCore: true,
       },
       {
+        name: 'React',
+        isCore: false,
+      },
+      {
         name: 'Webpack',
         isCore: false,
       },
       {
         name: 'Node',
+        isCore: false,
+      },
+      {
+        name: 'Express',
         isCore: false,
       },
       {
@@ -104,10 +112,6 @@ export class SkillsComponent {
       },
       {
         name: 'Lo dash',
-        isCore: false,
-      },
-      {
-        name: 'React',
         isCore: false,
       },
     ],
