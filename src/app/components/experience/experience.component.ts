@@ -15,7 +15,7 @@ export class ExperienceComponent {
   public experienceHistory: IExperience[] = [
     {
       title: 'Greensill',
-      dates: { from: 'September 2020', to: 'February 2021' },
+      dates: { from: 'September 2020', to: 'February 19th 2021' },
       description:
         'Hired as a senior front end developer to join a cross-functional agile team for Greensill, ' +
         'a market-leading provider of working capital finance. Enhanced and scaled project Verdi ' +
