@@ -213,6 +213,10 @@ export class SkillsComponent {
     category: 'Design',
     list: [
       {
+        name: 'Figma',
+        isCore: false,
+      },
+      {
         name: 'Photoshop',
         isCore: false,
       },
@@ -263,7 +267,11 @@ export class SkillsComponent {
     category: 'Devops',
     list: [
       {
-        name: 'Travis',
+        name: 'Amazon web services',
+        isCore: false,
+      },
+      {
+        name: 'Docker',
         isCore: false,
       },
       {
@@ -271,11 +279,7 @@ export class SkillsComponent {
         isCore: false,
       },
       {
-        name: 'Amazon web services',
-        isCore: false,
-      },
-      {
-        name: 'Docker',
+        name: 'Travis',
         isCore: false,
       },
     ],
