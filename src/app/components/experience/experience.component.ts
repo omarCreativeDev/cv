@@ -29,6 +29,8 @@ export class ExperienceComponent {
         'Angular',
         'Typescript',
         'Javascript',
+        'Node',
+        'Nest Js',
         'RxJS',
         'Test Driven Development',
         'Jest',

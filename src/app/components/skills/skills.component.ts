@@ -49,16 +49,20 @@ export class SkillsComponent {
         isCore: true,
       },
       {
-        name: 'Bootstrap',
-        isCore: false,
-      },
-      {
         name: 'GOV.UK design system (GDS)',
         isCore: true,
       },
       {
         name: 'NHS digital service manual',
         isCore: true,
+      },
+      {
+        name: 'Clarity Design System',
+        isCore: false,
+      },
+      {
+        name: 'Bootstrap',
+        isCore: false,
       },
     ],
   };
@@ -96,6 +100,10 @@ export class SkillsComponent {
       },
       {
         name: 'Node',
+        isCore: false,
+      },
+      {
+        name: 'Nest Js',
         isCore: false,
       },
       {
@@ -214,11 +222,7 @@ export class SkillsComponent {
     list: [
       {
         name: 'Figma',
-        isCore: false,
-      },
-      {
-        name: 'Photoshop',
-        isCore: false,
+        isCore: true,
       },
       {
         name: 'Sketch',
@@ -226,6 +230,10 @@ export class SkillsComponent {
       },
       {
         name: 'Invision',
+        isCore: false,
+      },
+      {
+        name: 'Photoshop',
         isCore: false,
       },
     ],
