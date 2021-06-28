@@ -14,6 +14,31 @@ export class ExperienceComponent {
   public faLinkedIn: IconDefinition = faLinkedinIn;
   public experienceHistory: IExperience[] = [
     {
+      title: 'MOJ (Ministry of justice)',
+      dates: { from: 'April 2021', to: 'July 15th 2021' },
+      description: '',
+      achievements: [],
+      skillsUsed: [
+        'Angular',
+        'Typescript',
+        'Javascript',
+        'NGRX',
+        'RxJS',
+        'Test Driven Development',
+        'Marble testing',
+        'Jest',
+        'Protractor',
+        'GDS [GOV.UK design system]',
+        'HTML5',
+        'SCSS',
+        'CSS3',
+        'BEM',
+        'CSS Grid',
+        'Responsive Design',
+        'Git',
+      ],
+    },
+    {
       title: 'Greensill',
       dates: { from: 'September 2020', to: 'March 12th 2021' },
       description:
@@ -196,30 +221,8 @@ export class ExperienceComponent {
       title: 'Foundry',
       dates: { from: 'May 2018 ', to: 'September 2018' },
       description:
-        'Worked on Flix, a visual story development tool for feature film, TV production, games. Designed to promote ' +
+        'Worked on Flix, a visual story development tool built using Angular for feature film, TV production, games. Designed to promote ' +
         'fast-paced creative collaboration amongst directors, producers, story artists and editors.',
-      achievements: [
-        'Developed a greenfield desktop application with angular 4, typescript, electron and webpack.',
-        'Unit testing components and services with a BDD approach.',
-        'Gained development experience with electron and clarity ui.',
-      ],
-      skillsUsed: [
-        'Angular',
-        'Typescript',
-        'Javascript',
-        'RxJS',
-        'Electron',
-        'Test Driven Development',
-        'Jasmine',
-        'Karma',
-        'HTML5',
-        'SCSS',
-        'CSS3',
-        'BEM',
-        'Clarity UI',
-        'Responsive Design',
-        'Git',
-      ],
     },
   ];
 }
